@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="border rounded">
+    <!-- ------ top bar area--------- -->
+    <nav class="flex items-center justify-between my-2 relative border-b-2 items-stretch  h-9">
+        <div class="flex items-center gap-3  ">
+            <ul class="border-l-2 flex items-center justify-start list-none w-22 gap-1  pl-1">
+               <li class="ml-1 pl-1"> <img src="./assets/logo" alt="" style="height: 35px;width: 35px; gap:1px; border-radius: 40px;margin-top: 4px;"></li>
+                <li class="text-bold text-size-5">Setoric</li>
+                   <i class="fa-duotone fa-solid fa-chevron-left border rounded" style=" height: 13x;width: 18px;padding: 2px; margin-left: 69px;"></i> 
+            </ul>
+            <div class="flex text-bold text-size-5">DashBoard</div>
+        
+        </div>
+        <ul class="flex mr-3 justify-end gap-2 list-none justify-center items-center p-2">
+            <li class="border  rounded p-1">
+                <i class="fa-regular fa-envelope"></i>
+            </li> 
+            <li class="border rounded p-1">
+                <i class="fa-regular fa-bell"></i>
+            </li>
+            <li class="flex border rounded p-1">
+                <img src="./assets/logo" alt="" class="gap-2 rounded items-center h-4 w-4">
+                <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li class="border rounded p-1">
+                <i class="fa-solid fa-ellipsis"></i>
+            </li>
+        </ul>
+    </nav>
+    <!-- ------ Second top bar area start--------- -->
+
+    <nav class="flex border-b-2 h-8  display-box">
+        <div class="border-l-2 ml-57 relative">
+            <div class="p-3  -ml-57 ">
+                <span class="p-2 absolute"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input class="rounded w-1 p h-5" type="search" name="search" style="width: 205px;height: 28px;" placeholder="search">
+            </div>
+        </div>
+        <div class="flex items-center">
+           <div class="flex  ml-7 h-7 border rounded relative">
+            <span class="border-l-2 mr-1 flex items-center gap-1 pl-1 ">
+                <i class="fa-regular fa-window-maximize"></i>
+                <span class="mr-1">Overview</span></span>
+                <span class="border-l-2 mr- flex items-center gap-1 pl-1 ">
+                    <i class="fa-solid fa-spinner"></i>
+                    <span class="mr-1">Orders</span></span>
+                    <span class=" mr-1 flex items-center gap-1 pl-1 ">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <span class="mr-1">Sales</span></span>
+           </div>
+             <div class="ml justify-end">
+           <ul class="list-none flex  gap-2 ml">
+            <li class="border rounded flex items-center pl">
+                <i class="fa-solid fa-arrows-spin"></i>
+            </li>
+            <li class=" flex gap-1  border rounded items-center"> 
+                <i class="fa-regular fa-calendar ml-1"></i>
+                Monthly
+                <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li class=" flex gap-1 text-white bg-blue border rounded items-center">
+                <i class="fa-solid fa-download pl-1"></i>
+
+               <span class="p-a"> Download</span></li>
+           </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- ------ Second top bar area end--------- -->
+    <nav>
+        <div>
+    <!-- ------ Side bar area--------- -->
+            <div class="border-l-2 w-22 display-block text-left">
+            <ul class="list-none pl-1  items-center ">
+                <li class="ml-2 headingcolor pb-2">Main Menu</li>
+                <li class="ml-5 sidebaritemscolor pb-2 pb-2">
+                    <i class="fa-solid fa-house-user"></i>
+                    DashBoard</li>
+                <li class="ml-5 sidebaritemscolor pb-2">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Orders</li>
+                <li class="ml-5 sidebaritemscolor pb-2">
+                    <i class="fa-solid fa-cube"></i>
+                    Products</li>
+                <li class="ml-5 sidebaritemscolor pb-2">
+                    <i class="fa-regular fa-user"></i>
+                    Customers</li>
+                <li class="ml-5 sidebaritemscolor pb-2">
+                    <i class="fa-solid fa-chart-column"></i>
+                    Analytics</li>
+                <li class="ml-5 sidebaritemscolor pb-2">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    Marketing</li>
+                <li class="ml-2 headingcolor pb-2">Sales Channel</li>
+                <li class="ml-5 sidebaritemscolor pb-2">
+                    <i class="fa-regular fa-handshake"></i>
+                    Integrations</li>
+                <li class="ml-5 sidebaritemscolor pb-2 ">
+                    <i class="fa-solid fa-store"></i>
+                    My store</li>
+                <li class="ml-5 sidebaritemscolor">
+                    <i class="fa-thin fa-ticket"></i>
+                    Discounts</li>
+            </ul>
+      <div class="mt">
+        <div class="items-end  list-none relative mb-5">
+            <li class="ml-5 sidebaritemscolor">
+                <i class="fa-solid fa-gear"></i>
+                Setting</li>
+                <li class="ml-5 sidebaritemscolor">
+                    <i class="fa-solid fa-headphones"></i>
+                    Help center</li>
+        </div>
+      </div>
+    </div>
+    <!-- ------ New income area--------- -->
+
+      <div class=" flex absolute m gap-5">
+        <div class=" border rounded w relative h-29 p-2">
+            <div class="border rounded relativ h-16">
+            <div class="p-2 sidebaritemscolom">New New Income
+                <div class="flex ">
+                    <span class="pl-2 mt-01">
+                        <p class="text-size-5" >$53,765</p>
+                    </span>
+                   
+                    <div class="pl-2 mt-02 ">
+                        <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                            <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                            10.5%</p>
+                    </div>
+                    
+                </div>
+            </div>
+                <span class="absolute border rounded t-1 l-1 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-coins text-purple"></i>
+                    </p>
+                </span>
+            </div>
+            <div class="flex ">
+                <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+        <div class=" border rounded w relative h-29 p-2">
+            <div class="border rounded relativ h-16">
+            <div class="p-2 sidebaritemscolom">New New Income
+                <div class="flex ">
+                    <span class="pl-2 mt-01">
+                        <p class="text-size-5" >$53,765</p>
+                    </span>
+                   
+                    <div class="pl-2 mt-02 ">
+                        <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                            <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                            10.5%</p>
+                    </div>
+                    
+                </div>
+            </div>
+                <span class="absolute border rounded t-1 l-1 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-square-poll-vertical text-purple"></i>
+                    </p>
+                </span>
+            </div>
+            <div class="flex ">
+                <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+        <div class=" border rounded w relative h-29 p-2">
+            <div class="border rounded relativ h-16">
+            <div class="p-2 sidebaritemscolom">New New Income
+                <div class="flex ">
+                    <span class="pl-2 mt-01">
+                        <p class="text-size-5" >$53,765</p>
+                    </span>
+                   
+                    <div class="pl-2 mt-02 ">
+                        <p class="pl-1 bg-red border rounded p-1  text-size-3 text-red">
+                            <i class="fa-solid fa-arrow-down border-2  rounded-1  text-red"></i>
+                            10.5%</p>
+                    </div>
+                    
+                </div>
+            </div>
+                <span class="absolute border rounded t-1 l-1 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-bag-shopping text-purple"></i>
+                    </p>
+                </span>
+            </div>
+            <div class="flex ">
+                <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+        <div class=" border rounded w relative h-29 p-2">
+            <div class="border rounded relativ h-16">
+            <div class="p-2 sidebaritemscolom">New New Income
+                <div class="flex ">
+                    <span class="pl-2 mt-01">
+                        <p class="text-size-5" >$53,765</p>
+                    </span>
+                   
+                    <div class="pl-2 mt-02 ">
+                        <p class="pl-1 bg-red border rounded p-1  text-size-3 text-red">
+                            <i class="fa-solid fa-arrow-down border-2  rounded-1  text-red"></i>
+                            10.5%</p>
+                    </div>
+                    
+                </div>
+            </div>
+                <span class="absolute border rounded t-1 l-1 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-eye text-purple"></i>
+                    </p>
+                </span>
+            </div>
+            <div class="flex ">
+                <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+        <div class=" border rounded w relative h-29 p-2">
+            <div class="border rounded relativ h-16">
+            <div class="p-2 sidebaritemscolom">New New Income
+                <div class="flex ">
+                    <span class="pl-2 mt-01">
+                        <p class="text-size-5" >$53,765</p>
+                    </span>
+                   
+                    <div class="pl-2 mt-02 ">
+                        <p class="pl-1 bg-red border rounded p-1  text-size-3 text-red">
+                            <i class="fa-solid fa-arrow-down border-2  rounded-1  text-red"></i>
+                            10.5%</p>
+                    </div>
+                    
+                </div>
+            </div>
+                <span class="absolute border rounded t-1 l-1 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-star text-purple"></i>
+                    </p>
+                </span>
+            </div>
+            <div class="flex ">
+                <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+      </div>
+
+      <div class="flex m-0 gap-5">
+        <!-- ------ Overall sales area--------- -->
+        <div class=" border rounded w-100 relative p-2">
+            <div class="border rounded relative ">
+                <div class="border-b-2 h-16">
+                    <div class="p-2 sidebaritemscolom">Overall Sales
+                        <div class="flex ">
+                            <span class="pl-2 mt-01">
+                                <p class="text-size-5 text-bold" >$53,765</p>
+                            </span>
+                           
+                            <div class="pl-2 mt-02 ">
+                                <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                                    <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                                    10.5%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+                <span class="absolute border rounded t-1 l-2 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-star text-purple"></i>
+                    </p>
+                </span>
+                <div class="p-2 ml-2">
+                    <div class=" flex border mt-2 w-23 rounded h-7 items-center">
+                            <span class="border-l-2  flex items-center gap-1 pl-1 ">
+                                <span class="">All Products</span>
+                                <i class="fa-solid fa-chevron-down mr-2"></i>
+                            </span>
+                                <span class=" flex items-center gap-1 pl-1 ">
+                                    <span class="">All Categories</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </span>
+                    </div>
+                </div>
+            </div>
+           <div class="flex gap-5">
+            <div class=" border rounded w-75 relative h-29 p-2 mt-3">
+                <div class="border rounded relative h-16">
+                <div class="p-2 sidebaritemscolom">New New Income
+                    <div class="flex ">
+                        <span class="pl-2 mt-01">
+                            <p class="text-size-5" >$53,765</p>
+                        </span>
+                       
+                        <div class="pl-2 mt-02 ">
+                            <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                                <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                                10.5%</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                    <span class="absolute border rounded t-1 l-61 h-7 w-7">
+                        <p class="items-center ml-1 mt-2"><i class="fa-solid fa-coins text-purple"></i>
+                        </p>
+                    </span>
+                </div>
+                <div class="flex ">
+                    <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                    <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class=" border rounded w-75 relative h-29 p-2 mt-3">
+                <div class="border rounded relative h-16">
+                <div class="p-2 sidebaritemscolom">New New Income
+                    <div class="flex ">
+                        <span class="pl-2 mt-01">
+                            <p class="text-size-5" >$53,765</p>
+                        </span>
+                       
+                        <div class="pl-2 mt-02 ">
+                            <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                                <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                                10.5%</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                    <span class="absolute border rounded t-1 l-61 h-7 w-7">
+                        <p class="items-center ml-1 mt-2"><i class="fa-solid fa-coins text-purple"></i>
+                        </p>
+                    </span>
+                </div>
+                <div class="flex gap- ">
+                    <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                    <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            
+           </div>
+           <div class="flex gap-5">
+            <div class=" border rounded w-75 relative h-29 p-2 mt-3">
+                <div class="border rounded relative h-16">
+                <div class="p-2 sidebaritemscolom">New New Income
+                    <div class="flex ">
+                        <span class="pl-2 mt-01">
+                            <p class="text-size-5" >$53,765</p>
+                        </span>
+                       
+                        <div class="pl-2 mt-02 ">
+                            <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                                <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                                10.5%</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                    <span class="absolute border rounded t-1 l-61 h-7 w-7">
+                        <p class="items-center ml-1 mt-2"><i class="fa-solid fa-coins text-purple"></i>
+                        </p>
+                    </span>
+                </div>
+                <div class="flex ">
+                    <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                    <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class=" border rounded w-75 relative h-29 p-2 mt-3">
+                <div class="border rounded relative h-16">
+                <div class="p-2 sidebaritemscolom">New New Income
+                    <div class="flex ">
+                        <span class="pl-2 mt-01">
+                            <p class="text-size-5" >$53,765</p>
+                        </span>
+                       
+                        <div class="pl-2 mt-02 ">
+                            <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                                <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                                10.5%</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                    <span class="absolute border rounded t-1 l-61 h-7 w-7">
+                        <p class="items-center ml-1 mt-2"><i class="fa-solid fa-coins text-purple"></i>
+                        </p>
+                    </span>
+                </div>
+                <div class="flex gap- ">
+                    <p class="text-bold text-size-3">+$2156 <span class=" headingcolor text-sm">from last month</span></p>
+                    <p class="ml-10"><i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            
+           </div>
+        </div>
+        <!-- ------ Conversion rate area--------- -->
+        <div class=" border rounded w-75 relative  p-2">
+            <div class="border rounded relative">
+                
+                    <div class="p-2  h-16">
+                        Conversion Rate
+                        <div class="flex ">
+                            <span class="pl-2 mt-01">
+                                <p class="text-size-5 text-bold" >4.55%</p>
+                            </span>
+                            <div class="pl-2 mt-02 ">
+                                <p class="pl-1 bg-green border rounded p-1  text-size-3 text-aqua">
+                                    <i class="fa-solid fa-arrow-up border-1  rounded-1  text-aqua"></i>
+                                    0.5%</p>
+                            </div>
+                        </div>
+                    </div>
+                
+        
+                <span class="absolute border rounded t-1 l-3 h-7 w-7">
+                    <p class="items-center ml-1 mt-2"><i class="fa-solid fa-chart-line text-aqua"></i>
+                    </p>
+                </span>
+            </div>
+           <div class="relative border rounded p-2 mt-3">
+            <div class=" h-40">
+               
+                <div class="border-b-2 relative">
+                 <div class=" text-bold">
+
+                    Product views
+                </div>
+                    <span class="flex t-1 mt-02">
+                        <p>15%</p>
+                        <p class=" ml-a text-bold absolute">6,545</p>
+                    </span>
+                 
+                </div>
+                <div class="border-b-2 relative">
+                    <div class=" text-bold mt-3">
+   
+                       Add to cart
+                   </div>
+                       <span class="flex t-1 mt-02">
+                           <p>8%</p>
+                           <p class=" ml-a text-bold absolute">3,491</p>
+                       </span>
+                    
+                   </div>
+                   <div class="border-b-2 relative">
+                    <div class=" text-bold mt-3">
+   
+                       Checkout initiated
+                   </div>
+                       <span class="flex t-1 mt-02">
+                           <p>4%</p>
+                           <p class=" ml-a text-bold absolute">1,746</p>
+                       </span>
+                    
+                   </div>
+                   <div class=" relative">
+                    <div class=" text-bold mt-3">
+   
+                       Completed Purchase
+                   </div>
+                       <span class="flex t-1 mt-02">
+                           <p>2.75%</p>
+                           <p class=" ml-a text-bold absolute">1,200</p>
+                       </span>
+                    
+                   </div>
+            </div>
+           </div>
+        </div>
+      </div>
+      
+        </div>
+    </nav>
+    </div>
+   
+</body>
+</html>

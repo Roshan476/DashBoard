@@ -1,0 +1,338 @@
+:root
+{
+    --bg-black: #000;
+    --bg-white:  #fdf9ff;
+     --bg-gray:  #d3d0d3;
+     --text-bringle: #9951c0;
+    --text-green: #33a799;
+    --text-red: #ce5555;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    /* border: 2px solid var(--bg-gray);
+    border-radius: 10px;
+    height: 95%; */
+}
+/*----- font ------*/
+.text-size-5{
+    font-size: 22px;
+}
+.text-size-3{
+    font-size: 15px;
+}
+/*----- top ------*/
+ .t-1{
+    
+    top: 19px;
+ }
+ /*----- left ------*/
+  .l-1{
+    left: 182px;
+  }
+  .l-60{
+    left: 213px;
+  }
+  .l-61{
+    left: 247px;
+  }
+  .l-2{
+    left: 597px;
+  }
+  .l-3{
+    left: 499px;
+  }
+    
+.display-box{
+    box-sizing: border-box;
+}
+li{
+    position: relative;
+}
+.l{
+    left: 42pc;
+}
+
+/*----- height ------*/
+.h-4{
+    height: 18px;
+}
+.w-4{
+    width: 18px;
+}
+.h-7{
+    height: 29px;
+}
+.h-5{
+    height: 23px;
+}
+.h-6{
+    height: 24px;
+}
+.h-8{
+    height: 45px;
+}
+.h-9{
+    height: 36px;
+}
+.h-29{
+    height: 119px;
+}
+.h-40{
+    height: 276px;
+}
+.h-16{
+    height: 66px;
+}
+/*----- width ------*/
+.w{
+    width: 231px;
+}
+.w-75{
+    width: 553px;
+}
+
+.w-100{
+    width: 647px;
+}
+.w-7{
+    width: 29px;
+}
+.w-1{
+    width:143px;
+}
+.w-21{
+    width: 157px
+}
+.w-23{
+    width:247px;
+}
+.w-22{
+ width: 232px;
+}
+.max-w-3{
+    width: 16px;
+}
+
+/*----- gap ------*/
+
+.gap-1{
+    gap: 8px;
+}
+.gap-2{
+    gap: 12px;
+}
+.gap-3{
+    gap:16px;
+}
+.gap-5{
+    gap: 20px;
+}
+.gap-12{
+    gap: 50px;
+}
+
+/*----- justify-content ------*/
+
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.flex{
+    display :flex;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+    
+}
+.items-center{
+    align-items: center;
+}
+.items-end{
+    align-items: flex-end;
+}
+.list-none
+{
+    list-style: none;
+}
+/*----- margin ------*/
+.m{
+    margin: -602px 10px 461px 246px;
+}
+.m-0{
+    margin: -450px 10px 461px 261px;
+}
+.ml-1{
+    margin-left: 5px;
+}
+.ml-2{
+    margin-left: 10px;
+}
+.ml{
+    margin-left: 21.1pc;
+}
+.ml-a{
+    margin-left: 30.5pc;
+}
+.ml-0{
+    margin-left: 0;
+}
+.ml-7{
+    margin-left:28px;
+}
+.ml-4{
+    margin-left: 19px;
+}
+.ml-5{
+    margin-left: 20px;
+}
+.ml-57{
+    margin-left: 230px;
+}
+.-ml-57{
+    margin-left: -229px;
+}
+.ml-10{
+    margin-left: 40px;
+}
+.mr-0{
+    margin-right: 0;
+}
+.mr-1{
+    margin-right: 4px;
+}
+.mr-2{
+    margin-right: 8px;
+}
+.mr-3{
+    margin-right: 13px;
+}
+.mb-5{
+    margin-bottom: 20px;
+}
+.mt-01{
+    margin-top: -10px;
+}
+.mt-02{
+    margin-top: -4px;
+}
+.mt{
+    margin-top: 270px;
+}
+.mt-1{
+    margin-top: 2px;
+}
+.mt-2{
+    margin-top: 4px;
+}
+.mt-3{
+    margin-top: 9px;
+}
+/*----- padding ------*/
+.pt-0{
+    padding-top: 1px;
+}
+.pl-3{
+    padding-left: 12px;
+}
+.pr-0{
+    padding-right: 0;
+}
+.pr-1{
+    padding-right: 4px;
+}
+.p{
+    padding: 0 15px 0 29px;
+}
+.p-a{
+    padding: 4px 4px 4px 4px;
+}
+.p-1{
+    padding: 2px;
+}
+.p-2{
+    padding: 4px;
+}
+.p-3{
+    padding: 8px;
+}
+
+.pl-1{
+    padding-left: 3px;
+}
+.pl-2{
+    padding-left: 8px;
+}
+.pb-2{
+    padding-bottom: 8px;
+}
+
+
+/*----- position ----------------------------*/
+.relative{
+    position: relative;
+    
+}
+.absolute{
+    position: absolute;
+}
+
+/*--------------------------- border ---------------------------------*/
+
+.rounded{
+    border-radius: 8px;
+}
+.rounded-1{
+    border-radius: 7px;
+}
+.border-b-2{
+    border-bottom: 2px solid var(--bg-gray);
+}
+.border{
+    border: 2px  solid var(--bg-gray);
+}
+.border-1{
+    border: 2px  solid;
+    border-color: lightseagreen;
+}
+.border-2{
+    border: 2px  solid;
+    border-color: red;
+}
+.border-l-2{
+    border-right: 2px solid var(--bg-gray);
+    height: 100%;
+    
+  
+}
+.items-stretch{
+    align-items: stretch;
+}
+.text-base{
+    font-size: 20px;
+}
+.float-right{
+    float: right;
+}
+.text-bold{
+    font-weight: bold;
+}
+.display-block{
+    display: inline-block;
+}
+.text-left{
+    text-align: left;
+}
+
+.flex-column{
+    flex-direction: column;
+}
