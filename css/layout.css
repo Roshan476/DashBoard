@@ -11,6 +11,7 @@
     box-sizing: border-box;
 }
 body{
+    overflow: hidden;/*overflow:scroll*/
     /* border: 2px solid var(--bg-gray);
     border-radius: 10px;
     height: 95%; */
@@ -84,6 +85,9 @@ li{
 }
 .h-16{
     height: 66px;
+}
+.h-706{
+    height: 708px;
 }
 /*----- width ------*/
 .w{
